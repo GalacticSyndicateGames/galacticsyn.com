@@ -1,0 +1,52 @@
+footer {
+    display: flex;
+    background-color: #004a8d;
+    padding: 0;
+}
+
+.footer-logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin-right: 5%;
+}
+
+.footer-logo-container img {
+    width: 80%;
+}
+
+.social-media-container {
+    font-family: 'Aldrich';
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    margin-right: 3%;
+}
+
+.social-media-container p {
+    font-size: 5vh;
+    margin-bottom: 6%;
+}
+
+.icons-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons-wrapper img {
+    width: 25%;
+}
+
+.footer-planet-container {
+    display: flex;
+    width: 20%;
+}
+
+.footer-planet-container img {
+    width: 200%;
+}

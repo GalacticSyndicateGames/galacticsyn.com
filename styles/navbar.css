@@ -1,0 +1,22 @@
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #e0a736;
+    font-size: 3.5vh;
+    font-family: 'Aldrich';
+    text-transform: uppercase;
+    padding: 2% 0 3% 0;
+}
+
+.navbar div {
+    padding-right: 2.5%;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.navbar a:visited {
+    all: unset;
+}

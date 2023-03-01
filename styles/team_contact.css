@@ -1,0 +1,33 @@
+main {
+    padding: 0 12% 0 12%;
+}
+
+h2 {
+    font-family: 'Aldrich';
+    margin: 15% 0 7% 0;
+    text-align: center;
+    font-size: 8vh;
+    text-transform: uppercase;
+    color: #3f94c7;
+}
+
+.email {
+    display: flex;
+    margin-left: 90.5%;
+    margin-top: -11.5%;
+    margin-bottom: 1.5%;
+    text-align: center;
+
+}
+
+.phone {
+    display: flex;
+    margin-left: 92%;
+    width: 120%;
+    text-align: center;
+}
+
+
+main:last-child {
+    padding-bottom: 20%;
+}
