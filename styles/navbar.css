@@ -1,12 +1,19 @@
 .navbar {
     display: flex;
-    justify-content: flex-start;
     align-items: center;
-    color: #e0a736;
+    color:var(--clr-orange);
     font-size: 3.5vh;
     font-family: 'Aldrich';
     text-transform: uppercase;
     padding: 2% 0 3% 0;
+}
+
+.navbar-start{
+    justify-content: flex-start;
+}
+
+.navbar-stretch{
+    justify-content: space-between;
 }
 
 .navbar div {
@@ -19,4 +26,8 @@
 
 .navbar a:visited {
     all: unset;
+}
+
+.navbar a:hover {
+    color: var(--clr-orange-dark);
 }
