@@ -1,5 +1,4 @@
 .header-logo-wrapper {
-    width: 35%;
     margin-bottom: 10%;
 }
 
@@ -9,23 +8,7 @@
     margin-top: 40%;
 }
 
-.textbox {
-    font-size: 2.8vh;
-}
-
-#mainTextbox {
-    width: 29%;
-    margin-bottom: 3%;
-    line-height: 1.2em;
-}
-
 #showMoreButton {
     width: 27%;
     margin-bottom: 6%;
-}
-
-#moreTextbox {
-    width: 90%;
-    margin-bottom: 6%;
-    line-height: 1.2em;
 }
