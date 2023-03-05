@@ -1,5 +1,6 @@
-.content {
+header {
     padding: 0 5% 0 5%;
+    background: unset;
     background: url(../imgs/Backgrounds/PNG/Background4.png);
     background-repeat: no-repeat;
 }
