@@ -1,9 +1,5 @@
 .content {
     padding: 0 5% 0 5%;
-	background: url(../imgs/Backgrounds/PNG/Background4.png);
-	background-size: 100%;
-}
-
-.navbar{
-    width: 900%;
+    background: url(../imgs/Backgrounds/PNG/Background4.png);
+    background-repeat: no-repeat;
 }

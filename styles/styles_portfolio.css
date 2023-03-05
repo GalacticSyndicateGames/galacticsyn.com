@@ -1,13 +1,13 @@
+body {
+    background-color: white;
+}
+
 .content {
     padding: 0 6% 0 5%;
-	background: url(../imgs/Backgrounds/PNG/Background2.png);
-	background-size: 100%;
+    background-image: url(../imgs/Backgrounds/SVG/background-portfolio.svg);
+    background-size: 100%;
 }
 
 .background {
     background: url(../imgs/Backgrounds/PNG/Background2.png);
-}
-
-.navbar{
-    width: 900%;
 }

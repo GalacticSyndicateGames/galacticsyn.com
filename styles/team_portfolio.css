@@ -1,5 +1,6 @@
 .portfolio {
     display: flex;
+    justify-content: space-between;
 }
 
 .portfolio-picture {
@@ -15,27 +16,28 @@
     flex-direction: column;
     justify-content: center;
     width: 57%;
-    margin-bottom: 10% ;
+    margin-bottom: 10%;
 }
 
 .left-aligned .portfolio-info {
     align-items: flex-start;
     margin-left: -10%;
-    margin-bottom: 10% ;
+    margin-bottom: 10%;
 }
 
 .right-aligned .portfolio-info {
     align-items: flex-end;
     margin-right: 1%;
-    margin-bottom: 10% ;
+    margin-bottom: 10%;
 }
 
-.name, .position {
+.name,
+.position {
     color: black;
 }
 
 .name {
-    margin-bottom: 5% ;
+    margin-bottom: 5%;
 }
 
 .about {
@@ -52,6 +54,7 @@ main:last-child {
     margin-top: 15%
 }
 
-.about, .position {
+.about,
+.position {
     color: black;
 }
