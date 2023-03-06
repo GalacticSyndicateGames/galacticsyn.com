@@ -1,14 +1,52 @@
+header {
+    height: 100%;
+    padding: 0 5% 0 5%;
+    background: unset;
+    background: url(../imgs/Backgrounds/PNG/Background4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 90%;
+}
+
+
 .header-logo-wrapper {
-    margin-bottom: 10%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    top: 40%;
+    right: 0;
+    text-align: center;
 }
 
-.header-logo-wrapper img {
+.header-logo {
     width: 70%;
-    margin-left: 210%;
-    margin-top: 40%;
+    margin: auto;
 }
 
-#showMoreButton {
-    width: 27%;
-    margin-bottom: 6%;
+.contact-icon {
+    max-height: 1.5rem;
+    width: auto;
+    margin: 0;
+}
+
+.contacts div {
+    display: flex;
+    padding: 0.5rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media screen and (min-width: 1025px) {
+    header {
+        background-size: cover;
+        background-position: top left;
+    }
+
+    .header-logo-wrapper {
+        top: 40%;
+        width: 30%;
+    }
 }

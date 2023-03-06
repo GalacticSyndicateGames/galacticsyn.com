@@ -1,4 +1,4 @@
-.email {
+/* .email {
     display: flex;
     margin-left: 90.5%;
     margin-top: -11.5%;
@@ -13,7 +13,12 @@
     width: 120%;
     text-align: center;
 }
+ */
 
+
+.contacts {
+    font-size: 1.5rem;
+}
 
 main:last-child {
     padding-bottom: 20%;
