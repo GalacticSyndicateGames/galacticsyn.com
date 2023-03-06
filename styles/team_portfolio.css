@@ -27,6 +27,11 @@
     color: black;
 }
 
+@media screen and (min-width: 768px) {
+    .portfolio{
+        padding: 2rem;
+    }
+}
 
 @media screen and (min-width: 1025px) {
 
@@ -39,7 +44,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        /* width: 37%; */
+        max-width: 50%;
     }
 
     .portfolio-picture img {
@@ -52,7 +57,7 @@
         justify-content: center;
         align-items: center;
         width: 60%;
-        padding: 3rem;
+        padding: 2rem;
         /* margin-bottom: 10%; */
     }
 
