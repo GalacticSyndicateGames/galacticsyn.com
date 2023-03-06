@@ -22,15 +22,11 @@ header {
 }
 
 .header-logo {
+    margin-top: 20rem;
     width: 100%;
 }
 
 
-.header-info {
-    margin-top: 20rem;
-    min-height: 100vh;
-    /* display: flex; */
-}
 
 .textbox {
     font-size: 1rem;
@@ -53,9 +49,9 @@ header {
 }
 
 .slide-down {
-    /* overflow-y: hidden; */
-    max-height: 500px;
-    transition: all 200ms ease-in-out;
+
+    transition: all .3s ease-out;
+    height: 800px;
 }
 
 .slide-down.closed {
@@ -63,11 +59,12 @@ header {
     height: 0;
     visibility: hidden;
     opacity: 0;
+    transform: translateY(0);
 }
 
 
 .show-container {
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     width: 100%;
     text-align: center;
@@ -82,7 +79,7 @@ header {
     border-radius: 25px;
     cursor: pointer;
     margin: auto;
-    margin-top: 10rem;
+    margin-top: 5rem;
     margin-bottom: 5rem;
     transition: all 200ms ease-in-out;
 }
@@ -104,13 +101,19 @@ header {
         width: 30%;
     }
 }
+
 /*Tablet*/
-@media (min-width: 768px){
+@media (min-width: 768px) {
     .header-logo-wrapper {
         width: 30%;
     }
+
     #moreTextbox {
         font-size: 2rem;
+    }
+
+    .header-logo-wrapper {
+        width: 50%;
     }
 }
 
@@ -125,9 +128,17 @@ header {
         font-size: 1.5rem;
     }
 
+    .header-logo-wrapper {
+        width: 30%;
+    }
+
     #mainTextbox {
         width: 30%;
         font-size: 1.5rem;
+    }
+
+    .header-logo {
+        margin-top: unset;
     }
 
     .header-info {
