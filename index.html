@@ -3,13 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0 user-scalable=yes"
+    />
     <title>About Us</title>
     <link rel="stylesheet" href="styles/styles.css" />
     <link rel="stylesheet" href="styles/navbar.css" />
     <link rel="stylesheet" href="styles/header.css" />
     <link rel="stylesheet" href="styles/team.css" />
     <link rel="stylesheet" href="styles/footer.css" />
+    <script src="./scripts/script.js" defer></script>
   </head>
 
   <body>
@@ -20,22 +24,27 @@
         <div><a href="blog.html">Blog</a></div>
         <div><a href="contact.html">Contact</a></div>
       </section>
-      <div class="header-logo-wrapper">
-        <img src="imgs/Icons/logo.png" alt="" />
-      </div>
-      <div id="mainTextbox" class="textbox">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor inci- didunt ut labore et dolore magna aliqua. Ut enim ad minim
-      </div>
-      <img id="showMoreButton" src="imgs/Icons/Buttonshowmore.png" alt="" />
-      <div id="moreTextbox" class="textbox">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
+      <div class="header-info">
+        <div class="header-logo-wrapper">
+          <img src="imgs/Icons/logo.png" class="header-logo" alt="" />
+        </div>
+        <div id="mainTextbox" class="textbox">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor inci- didunt ut labore et dolore magna aliqua. Ut enim
+          ad minim
+        </div>
+        <div class="show-container">
+          <button class="show-btn">SHOW MORE</button>
+          <div id="moreTextbox" class="textbox slide-down closed">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </div>
+        </div>
       </div>
     </header>
     <div class="content">
@@ -149,19 +158,18 @@
       </main>
     </div>
     <footer>
-      <div class="footer-logo-container">
-        <img src="imgs/Icons/logo.png" alt="" />
-      </div>
-      <div class="social-media-container">
-        <p>Social media</p>
-        <div class="icons-wrapper">
-          <img src="imgs/Icons/Vectorinstagram.png" alt="" />
-          <img src="imgs/Icons/Vectorfacebook.png" alt="" />
-          <img src="imgs/Icons/Vectorlinkedin.png" alt="" />
+      <div class="footer-content">
+        <div class="footer-logo-container">
+          <img src="imgs/Icons/logo.png" alt="" />
         </div>
-      </div>
-      <div class="footer-planet-container">
-        <img src="imgs/Icons/footerplanet.png" alt="" />
+        <div class="social-media-container">
+          <p>Social media</p>
+          <div class="icons-wrapper">
+            <img src="imgs/Icons/Vectorinstagram.png" alt="" />
+            <img src="imgs/Icons/Vectorfacebook.png" alt="" />
+            <img src="imgs/Icons/Vectorlinkedin.png" alt="" />
+          </div>
+        </div>
       </div>
     </footer>
   </body>
