@@ -61,6 +61,14 @@
         /* margin-bottom: 10%; */
     }
 
+    .left-aligned .portfolio-picture {
+        justify-content: flex-end;
+    }
+
+    .right-aligned .portfolio-picture {
+        justify-content: flex-start;
+    }
+
     .left-aligned .portfolio-info {
         align-items: flex-start;
         /* margin-left: -10%; */
