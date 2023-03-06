@@ -1,18 +1,19 @@
 .navbar {
     display: flex;
     align-items: center;
-    color:var(--clr-orange);
-    font-size: 3.5vh;
+    color: var(--clr-orange);
+    width: 100%;
+    font-size: 1rem;
     font-family: 'Aldrich';
     text-transform: uppercase;
     padding: 2% 0 3% 0;
 }
 
-.navbar-start{
+.navbar-start {
     justify-content: flex-start;
 }
 
-.navbar-stretch{
+.navbar-stretch {
     justify-content: space-between;
 }
 
@@ -21,6 +22,7 @@
 }
 
 .navbar a {
+    color: var(--clr-orange);
     text-decoration: none;
 }
 
@@ -31,3 +33,30 @@
 .navbar a:hover {
     color: var(--clr-orange-dark);
 }
+
+
+
+/* Desktop */
+@media screen and (min-width: 1025px) and (max-width: 1199px) {}
+
+/* small laptop */
+@media screen and (min-width: 768px) and (max-width: 1024px) {}
+
+/* tablet */
+@media screen and (min-width: 768px) {
+    .navbar {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .navbar{
+        font-size: 2rem;
+    }
+}
+
+
+/* tablet and large mobiles */
+@media screen and (min-width: 320px) and (max-width: 480px) {}
+
+/* Mobile*/

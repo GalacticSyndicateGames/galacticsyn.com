@@ -1,29 +1,128 @@
-.header-logo-wrapper {
-    width: 35%;
-    margin-bottom: 25%;
+header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: auto;
+    /* min-width: 100vw; */
+    margin: 0;
+    background-image: url(../imgs/Backgrounds/PNG/background-index.png);
+    background-repeat: no-repeat;
+    background-size: 150%;
+    background-position-x: -30%;
+    padding: 1rem;
 }
 
-.header-logo-wrapper img {
+
+
+
+.header-logo-wrapper {
+    width: 100%;
+    /* margin-bottom: 25%; */
+    padding: 2rem;
+}
+
+.header-logo {
     width: 100%;
 }
 
+
+.header-info {
+    margin-top: 20rem;
+    min-height: 100vh;
+    /* display: flex; */
+}
+
 .textbox {
-    font-size: 2.8vh;
+    font-size: 1rem;
 }
 
 #mainTextbox {
-    width: 29%;
-    margin-bottom: 3%;
+    width: 100%;
+    font-size: 1.5rem;
     line-height: 1.2em;
-}
-
-#showMoreButton {
-    width: 27%;
-    margin-bottom: 6%;
+    padding: 1rem;
 }
 
 #moreTextbox {
-    width: 90%;
-    margin-bottom: 6%;
+    max-width: 80%;
     line-height: 1.2em;
+    font-size: 1.2rem;
+    text-align: left;
+    /* margin-bottom: 5rem; */
+    margin: auto;
+}
+
+.slide-down {
+    /* overflow-y: hidden; */
+    max-height: 500px;
+    transition: all 200ms ease-in-out;
+}
+
+.slide-down.closed {
+    /* max-height: 0; */
+    height: 0;
+    visibility: hidden;
+    opacity: 0;
+}
+
+
+.show-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
+
+.show-btn {
+    background-color: var(--clr-green);
+    color: white;
+    padding: 0.5rem 3rem;
+    font-size: 2rem;
+    border-radius: 25px;
+    cursor: pointer;
+    margin: auto;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+    transition: all 200ms ease-in-out;
+}
+
+.show-btn:hover {
+    color: var(--clr-green);
+    background-color: white;
+}
+
+/*tablet*/
+@media screen and (min-width: 768px) {
+    header {
+        max-height: 180vh;
+        background-size: 90%;
+        background-position-x: 150%;
+    }
+
+    .header-logo-wrapper {
+        width: 30%;
+    }
+}
+
+/*desktop*/
+@media screen and (min-width: 1025px) {
+    .show-btn {
+        margin-top: 10rem;
+        font-size: 3rem;
+    }
+
+    #moreTextbox {
+        font-size: 1.5rem;
+    }
+
+    #mainTextbox {
+        width: 30%;
+        font-size: 1.5rem;
+    }
+
+    .header-info {
+        margin-top: 20rem;
+        min-height: 100vh;
+        /* display: flex; */
+    }
 }

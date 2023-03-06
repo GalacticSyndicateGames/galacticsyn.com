@@ -1,6 +1,14 @@
+* {
+	/*This is CSS hack, use it when not sure about elements placing*/
+	/* outline: solid 1px red; */
+	margin: 0;
+	box-sizing: border-box;
+}
+
 :root {
 	--clr-orange: #e0a736;
-	--clr-orange-dark: #b88829;
+	--clr-orange-dark: #a07623;
+	--clr-green: #8BD36F;
 }
 
 @font-face {
@@ -23,24 +31,17 @@ html {
 body {
 	line-height: 1;
 	background-color: black;
-	/* overflow-x: hidden; */
 }
 
 body,
 html {
 	margin: 0;
 	min-height: 100vh;
+	max-width: 100%;
 }
 
-header {
-	height: 100%;
-	background-image: url(../imgs/Backgrounds/SVG/background-index.svg);
-	background-repeat: no-repeat;
-	background-size: 90%;
-	background-position-x: 200%; 
-}
-
-.content{
+.content {
+	margin-top: 10rem;
 	background-image: url(../imgs/Backgrounds/SVG/background-stars.svg);
 }
 
@@ -71,11 +72,4 @@ q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
-
-@media (max-width:688px) {
-	.content {
-		background-position: top;
-		background-size: unset;
-	}
 }

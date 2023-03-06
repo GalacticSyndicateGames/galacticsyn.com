@@ -1,83 +1,116 @@
 main {
-    padding: 0 12% 0 12%;
+    padding: 0 1rem 0 1rem;
 }
 
 h2 {
     font-family: 'Aldrich';
     margin: 15% 0 7% 0;
     text-align: center;
-    font-size: 8vh;
+    font-size: 2rem;
     text-transform: uppercase;
     color: #3f94c7;
 }
 
 .profile {
+    margin-top: 5em;
     display: flex;
-    column-gap: 30px;
-}
-
-.left-aligned {
-    flex-direction: row;
-}
-
-.right-aligned {
-    flex-direction: row-reverse;
-}
-
-.profile-picture {
-    width: 40%;
-}
-
-.profile-picture img {
     width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
 }
 
 .profile-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 60%;
-}
-.profile-info *{
-    margin: 0;
+    text-align: center;
 }
 
-
-.left-aligned .profile-info {
-    align-items: flex-start;
-    margin-left: 1%;
+.profile-picture {
+    text-align: center;
+    width: 100%;
 }
 
-.right-aligned .profile-info {
-    align-items: flex-end;
-    margin-right: 1%;
+.profile-picture img {
+    width: 40%;
+    height: auto;
+    margin: auto;
 }
 
-.name, .position {
+@media screen and (min-width: 1025px) {
+
+    .profile {
+        display: flex;
+        column-gap: 30px;
+    }
+
+    .left-aligned {
+        flex-direction: row;
+    }
+
+    .right-aligned {
+        flex-direction: row-reverse;
+    }
+
+    .profile-picture {
+        width: 40%;
+    }
+
+    .profile-picture img {
+        width: 50%;
+    }
+
+    .profile-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 60%;
+    }
+
+    .profile-info * {
+        margin: 0;
+    }
+
+
+    .left-aligned .profile-info {
+        align-items: flex-start;
+        margin-left: 1%;
+    }
+
+    .right-aligned .profile-info {
+        align-items: flex-end;
+        margin-right: 1%;
+    }
+}
+
+.name,
+.position {
     color: #3f94c7;
 }
 
 .name {
-    font-size: 6vh;
+    font-size: 2rem;
     font-weight: bold;
     font-family: 'Aldrich';
     line-height: 0.5em;
 }
 
 .position {
-    font-size: 6vh;
+    font-size: 2rem;
     line-height: 1.5em;
 }
 
 .about-me {
-    font-size: 3vh;
+    font-size: 1.5rem;
     line-height: 1.2em;
 }
 
-.right-aligned .about-me {
-    text-align: right;
-}
 
 main:last-child {
     padding-bottom: 15%;
+}
+
+@media screen and (min-width: 1025px) {
+    .right-aligned .about-me {
+        text-align: right;
+    }
 }
