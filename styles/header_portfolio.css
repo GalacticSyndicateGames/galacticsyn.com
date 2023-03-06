@@ -1,17 +1,37 @@
+
+header {
+    padding: 0 6% 0 5%;
+    background: unset;
+    background-image: url(../imgs/Backgrounds/SVG/background-portfolio.svg);
+    background-size: cover;
+    background-position: center center;
+}
+
+
 .title {
-    font-size: 6vh;
+    font-size: 2rem;
     font-family: 'Aldrich';
     text-align: center;
-    width: 35%;
+    width: 100%;
     margin-top: 40%;
-    padding-left: 32.5%;
 }
 
 .text {
-    font-size: 4vh;
+    font-size: 1rem;
     font-family: 'Aldrich';
-    width: 35%;
-    margin-top: 2%;
-    padding-left: 32.5%;
+    width: 100%;
     text-align: center;
+    margin: auto;
+    padding: 2rem;
+}
+
+.textbox{
+    font-size: 0.5rem;
+}
+
+@media screen and (min-width: 768px) {
+    .title{
+        width: 100%;
+        padding-left: 0;
+    }
 }

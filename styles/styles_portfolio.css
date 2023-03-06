@@ -2,12 +2,6 @@ body {
     background-color: white;
 }
 
-header {
-    padding: 0 6% 0 5%;
-    background-image: url(../imgs/Backgrounds/SVG/background-portfolio.svg);
-    background-size: cover;
-}
-
 .background {
     background: url(../imgs/Backgrounds/PNG/Background2.png);
 }

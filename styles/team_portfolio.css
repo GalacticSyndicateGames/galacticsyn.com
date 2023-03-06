@@ -1,60 +1,94 @@
 .portfolio {
-    display: flex;
-    justify-content: space-between;
+    margin-top: 5em;
+    text-align: center;
 }
 
 .portfolio-picture {
-    width: 37%;
+    width: 100%;
 }
 
 .portfolio-picture img {
-    width: 60%;
-}
-
-.portfolio-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 57%;
-    margin-bottom: 10%;
-}
-
-.left-aligned .portfolio-info {
-    align-items: flex-start;
-    margin-left: -10%;
-    margin-bottom: 10%;
-}
-
-.right-aligned .portfolio-info {
-    align-items: flex-end;
-    margin-right: 1%;
-    margin-bottom: 10%;
-}
-
-.name,
-.position {
-    color: black;
-}
-
-.name {
-    margin-bottom: 5%;
-}
-
-.about {
-    font-size: 3vh;
-    line-height: 1.2em;
-    margin-top: 3%
-}
-
-.right-aligned .about {
-    text-align: right;
-}
-
-main:last-child {
-    margin-top: 15%
+    width: 40%;
+    height: auto;
 }
 
 .about,
 .position {
+    text-align: left;
+    font-size: 1.2rem;
     color: black;
+    padding: 0.5rem;
+}
+
+.name {
+    line-height: 1.5rem;
+    font-size: 2rem;
+    padding: 0.5rem;
+    color: black;
+}
+
+
+@media screen and (min-width: 1025px) {
+
+    .portfolio {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .portfolio-picture {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* width: 37%; */
+    }
+
+    .portfolio-picture img {
+        width: 60%;
+    }
+
+    .portfolio-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+        padding: 3rem;
+        /* margin-bottom: 10%; */
+    }
+
+    .left-aligned .portfolio-info {
+        align-items: flex-start;
+        /* margin-left: -10%; */
+        /* margin-bottom: 10%; */
+    }
+
+    .right-aligned .portfolio-info {
+        align-items: flex-end;
+        /* margin-right: 1%; */
+        /* margin-bottom: 10%; */
+    }
+
+    .name,
+    .position {
+        color: black;
+    }
+
+    .name {
+        margin-bottom: 5%;
+    }
+
+    .about {
+        font-size: 3vh;
+        line-height: 1.2em;
+        margin-top: 3%
+    }
+
+    .right-aligned .about {
+        text-align: right;
+    }
+
+    main:last-child {
+        margin-top: 15%
+    }
+
 }
