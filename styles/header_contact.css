@@ -28,6 +28,7 @@ header {
     max-height: 1.5rem;
     width: auto;
     margin: 0;
+    padding-right: 1rem;
 }
 
 .contacts div {
