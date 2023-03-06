@@ -1,9 +1,12 @@
 body {
+	background-image: url(../imgs/Backgrounds/SVG/background-blog.svg);
 	background-color: white;
+	background-repeat: no-repeat;
+	background-size: 100%;
 }
 
 header {
 	padding: 0 6% 0 5%;
-	background-image: url(../imgs/Backgrounds/SVG/background-blog.svg);
+	background: unset;
 	background-size: 100%;
 }
