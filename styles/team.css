@@ -42,6 +42,10 @@ h2 {
         margin-top: 5rem;
     }
 
+    .content h2{
+        font-size: 3rem;
+    }
+
     .profile{
         padding: 2rem;
     }
@@ -69,6 +73,15 @@ h2 {
 
     .profile-picture img {
         width: 50%;
+    }
+
+    .left-aligned .profile-picture{
+        text-align: right;
+    }
+
+
+    .right-aligned .profile-picture{
+        text-align: left;
     }
 
     .profile-info {
